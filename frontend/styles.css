@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the order details section */
+  .order-details {
+    margin: 20px;
+  }
+  
+  /* Style the order status section */
+  .order-status
+  
+   {
+    margin: 20px;
+  }
+  
+  /* Style the order tracking form */
+  .order-tracking {
+    margin: 20px;
+  }
+  
+  .order-tracking form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .order-tracking label {
+    margin-bottom: 10px;
+  }
+  
+  .order-tracking input {
+    margin-bottom: 15px;
+    padding: 5px;
+  }
+  
+  .order-tracking button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .order-tracking button:hover {
+    background-color: #555;
+  }
+  @media screen and (min-width: 1025px) {
+    .order-tracking form {
+      max-width: 50%;
+    }
+    
+    .order-tracking label {
+      margin-bottom: 10px;
+    }
+    
+    .order-tracking input {
+      margin-bottom: 15px;
+      font-size: 18px;
+    }
+    
+    .order-tracking button {
+      padding: 16px;
+    }
+  }
